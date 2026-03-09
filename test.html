@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sans Bullshit Sans Test</title>
+  <style>
+    body {
+      margin: 24px;
+      font-family: sans-serif;
+      line-height: 1.4;
+    }
+    textarea {
+      width: 100%;
+      max-width: 900px;
+      min-height: 120px;
+      padding: 10px;
+      font-size: 16px;
+      box-sizing: border-box;
+    }
+    button {
+      margin-top: 10px;
+      padding: 8px 12px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    #output {
+      margin-top: 16px;
+      font-family: "Sans Bullshit Sans", sans-serif;
+      font-size: 48px;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+  <textarea id="inputText">Agentic AI
+RAG Pipeline
+Workflow Agents</textarea>
+  <br>
+  <button id="renderBtn" type="button">Render Text</button>
+  <div id="output"></div>
+
+  <script>
+    const input = document.getElementById("inputText");
+    const button = document.getElementById("renderBtn");
+    const output = document.getElementById("output");
+
+    function render() {
+      output.textContent = input.value;
+    }
+
+    button.addEventListener("click", render);
+    render();
+  </script>
+</body>
+</html>
