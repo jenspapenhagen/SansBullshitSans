@@ -24362,7 +24362,7 @@
               <Ligature components="e,e,p,space,l,e,a,r,n,i,n,g" glyph="uniE601"/>
               <Ligature components="i,s,r,u,p,t,i,v,e" glyph="uniE601"/>
               <Ligature components="o,w,n,s,i,z,i,n,g" glyph="uniE601"/>
-              <Ligature components="a,t,a,-,d,r,i,v,e,n" glyph="uniE601"/>
+              <Ligature components="a,t,a,hyphen,d,r,i,v,e,n" glyph="uniE601"/>
               <Ligature components="a,t,a,space,l,a,k,e" glyph="uniE601"/>
               <Ligature components="a,t,a,space,m,i,n,i,n,g" glyph="uniE601"/>
               <Ligature components="a,t,a,space,s,c,i,e,n,c,e" glyph="uniE601"/>
