@@ -1,16 +1,23 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sans Bullshit Sans Test</title>
+  <link rel="preload" href="fonts/SansBullshitSans.woff2" as="font" type="font/woff2" crossorigin>
   <style>
+	@font-face {
+		font-family: "SansBullshitSans";
+		src: url("fonts/SansBullshitSans.woff2") format("woff2");
+		font-weight: normal;
+		font-style: normal;
+	}
     body {
       margin: 24px;
       font-family: sans-serif;
       line-height: 1.4;
     }
-    textarea {
+    textarea {	  
       width: 100%;
       max-width: 900px;
       min-height: 120px;
@@ -26,7 +33,7 @@
     }
     #output {
       margin-top: 16px;
-      font-family: "Sans Bullshit Sans", sans-serif;
+      font-family: "SansBullshitSans", Arial, sans-serif;
       font-size: 48px;
       white-space: pre-wrap;
     }
